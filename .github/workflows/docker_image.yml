@@ -18,4 +18,4 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Build Docker image
-        run: Portfolio/LSTM/docker build -t portfolio-lstm-app .
+        run: docker build -t lstm_forecast_app ./LSTM
